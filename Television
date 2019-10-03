@@ -1,0 +1,50 @@
+public class Television extends Dispositivo{
+
+    int canal=1;
+    int volumen=0;
+    
+    public Television(int id, String tipo, boolean estado) {
+        super(id, tipo, estado);
+    }
+    
+    @Override
+    public void Encender(){
+        estado= true;
+    }
+    
+    @Override
+    public void Apagar(){
+        estado= false;
+    }
+     
+    public void SubirCanal(){
+        
+        if(canal>=1 && canal<84){
+            canal ++;
+        }
+     
+    }          
+    
+    public void BajarCanal () {
+       
+        if(canal<=84 && canal>1){
+            canal --;
+        }
+    }
+    
+    public void SubirVolumen(){
+        
+        if(volumen>=1 && volumen<64){
+        volumen++;
+        }
+        
+    }
+    
+    public void BajarVolumen(){
+       
+        if(volumen>1 && volumen<=64){
+        volumen--;
+    }
+    }
+    
+}
