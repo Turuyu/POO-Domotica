@@ -1,0 +1,10 @@
+public class Habitacion {
+//Atributos//
+String nombre;
+int nfocos;
+int naires;
+int ntvs;        
+Foco arrayFoco [] = new Foco [nfocos];
+Aire arrayAire [] = new Aire [naires];
+Television arrayTv [] = new Television [ntvs];
+}
