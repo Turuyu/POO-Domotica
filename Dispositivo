@@ -1,0 +1,33 @@
+public class Dispositivo {
+    //Atributos//;
+   protected int id;
+   protected String tipo;
+   protected boolean estado;
+
+    public Dispositivo(int id, String tipo, boolean estado) {
+        this.id = id;
+        this.tipo = tipo;
+        this.estado = estado;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public boolean isEstado() {
+        return estado;
+    }
+    
+    public void Encender(){
+        estado= true;
+    }
+    
+    public void Apagar(){
+        estado= false;
+    }
+  
+}
