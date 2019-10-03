@@ -1,0 +1,24 @@
+public class Aire extends Dispositivo{
+    int temperatura=30;
+    
+    public Aire(int id, String tipo, boolean estado) {
+        super(id, tipo, estado);
+    }
+    
+    public void SubirTemperatura(){
+    if(temperatura>=16 && temperatura<30){
+    
+        temperatura ++;
+        
+    }
+    }
+    
+    public void BajarTemperatura(){
+    if(temperatura>16 && temperatura<=30){
+    
+        temperatura --;
+    
+    }
+    }
+    
+}
