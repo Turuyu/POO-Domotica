@@ -1,0 +1,7 @@
+public class Foco extends Dispositivo{
+
+    public Foco(int id, String tipo, boolean estado) {
+        super(id, tipo, estado);
+    }
+    
+}
