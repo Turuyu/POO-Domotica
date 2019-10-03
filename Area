@@ -1,0 +1,4 @@
+public class Area {
+//Atributos//
+    Habitacion arrayHabitacion[] = new Habitacion[8];
+}
